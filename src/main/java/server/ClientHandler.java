@@ -23,7 +23,7 @@ public class ClientHandler extends Thread{
                                 "GET <key>\n" +
                                 "DEL <key>\n" +
                                 "EXIT\n";
-            out.write(("$"+ welcomeMsg.length()+"\r\n"+welcomeMsg+"\r\n").getBytes());
+            out.write(welcomeMsg.getBytes());
             out.flush();
 
 
