@@ -30,12 +30,14 @@ src
 
 ### Run Server
 
-javac Main.java ClientHandler.java
+javac Main.java     ClientHandler.java
+
 java Main
 
 ### Run Client CLI
 
 javac Client.java
+
 java Client
 
 
